@@ -4,7 +4,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from random import randint
 import os
  
-bot = Bot(token='1614394875:AAH2iQCvs6_e3ob_t8CYuVEkuWtff2vvuWY')
+bot = Bot(token='5457025409:AAE36THiZIhvu1sBh0xVtI3Gu9uzU_jA8EQ')
 dp = Dispatcher(bot)
 
 button0 = InlineKeyboardButton(text="👋 Tutorial", callback_data="tutorial")
