@@ -4,9 +4,12 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from random import randint
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
- 
+TOKEN = "5457025409:AAE36THiZIhvu1sBh0xVtI3Gu9uzU_jA8EQ"
 bot = Bot(token='5457025409:AAE36THiZIhvu1sBh0xVtI3Gu9uzU_jA8EQ')
+updater = Updater(TOKEN, use_context=True)
+
 dp = Dispatcher(bot)
+
 PORT = int(os.environ.get('PORT', 5000))
 button0 = InlineKeyboardButton(text="👋 Tutorial", callback_data="tutorial")
 button1 = InlineKeyboardButton(text="Pengertian Arsip", callback_data="pengertian_arsip")
