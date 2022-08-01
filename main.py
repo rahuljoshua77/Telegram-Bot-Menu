@@ -3,8 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButt
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from random import randint
 import os
-
-os.system('pip install aiogram')
+ 
 bot = Bot(token='1614394875:AAH2iQCvs6_e3ob_t8CYuVEkuWtff2vvuWY')
 dp = Dispatcher(bot)
 
