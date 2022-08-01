@@ -234,3 +234,5 @@ async def kb_answer(message: types.Message):
 
 
 executor.start_polling(dp)
+
+os.system('python3 main.py')
