@@ -1,1 +1,1 @@
-web: python heroku.py
+web: python heroku.py $PORT
